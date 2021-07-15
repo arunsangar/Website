@@ -1,0 +1,26 @@
+body {
+  background: #324466;
+}
+
+#profile {
+  margin: 200px;
+  width: 350px;
+  height: 350px;
+  object-fit: none;
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+#abouttxt {
+  margin: 200px;
+  color: white;
+  font-size: 25px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+}
